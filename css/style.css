@@ -1,0 +1,245 @@
+.results {
+   width: 100%;
+   text-align: center;
+   border: solid 1px;
+}
+.results th {
+   font-size: 20px;
+   color: #343d44;
+   border-right: solid 1px;
+   text-transform: uppercase;
+}
+
+select#second_option{
+	
+   width: 15vw !important;
+	
+   margin-left: 15px;
+
+}
+
+
+
+select#search_value{
+	
+   width: 20vw !important;
+	
+   margin-left: 10px;
+
+}
+
+
+
+input#search_value, input#ticket_number{
+	
+   display: inline !important;
+	
+   margin-left: 10px;
+	
+   border-top: none;
+	
+   border-left: none;
+	
+   border-right: none;
+	
+   border-bottom: 1px solid #b1a18b;
+	
+   padding: 5px 10px;
+
+}
+
+table#New-Hire-table, #New-Hire-table thead, #New-Hire-table tbody, #New-Hire-table th, #New-Hire-table td, #New-Hire-table tr{
+	
+   display: block;
+	
+   width: 100%;
+
+}
+
+
+
+#New-Hire-table thead tr { 
+	
+   position: absolute;
+  
+   top: -9999px;
+  
+   left: -9999px;
+
+}
+
+
+
+#New-Hire-table  tr { 
+	
+   border: 1px solid #ccc; 
+
+}
+
+
+
+#New-Hire-table td { 
+	
+   border: none;
+  
+   border-bottom: 1px solid #eee; 
+  
+   position: relative;
+  
+   padding-left: 50%; 
+}
+
+
+
+#New-Hire-table td:before {
+	
+   position: absolute;
+  
+   top: 6px;
+  
+   left: 6px;
+  
+   width: 45%; 
+  
+   padding-right: 10px; 
+  
+   white-space: nowrap;
+
+}
+
+
+
+#New-Hire-table td:nth-of-type(1):before { 
+	
+   content: "Date Submitted"; 
+
+}
+
+
+#New-Hire-table td:nth-of-type(2):before { 
+	
+   content: "New Hire Name"; 
+
+}
+
+
+#New-Hire-table td:nth-of-type(3):before { 
+	
+   content: "Property"; 
+
+}
+
+
+#New-Hire-table td:nth-of-type(4):before { 
+	
+   content: "Job Title"; 
+
+}
+
+
+#New-Hire-table td:nth-of-type(5):before { 
+	
+   content: "Department"; 
+
+}
+
+
+#New-Hire-table td:nth-of-type(6):before { 
+	
+   content: "Start Date"; 
+
+}
+
+
+#New-Hire-table td:nth-of-type(7):before { 
+	
+   content: "Job Type"; 
+
+}
+
+
+#New-Hire-table td:nth-of-type(8):before { 
+	
+   content: "Access Needed"; 
+
+}
+
+
+#New-Hire-table td:nth-of-type(9):before { 
+	
+   content: "Hardware Needed"; 
+}
+
+
+#New-Hire-table td:nth-of-type(10):before { 
+	
+   content: "Requestor Email"; 
+
+}
+
+select#option, select#second_option, select#search_value, select#status{
+    
+   -webkit-appearance: button;
+   
+   -webkit-border-radius: 2px;
+   
+   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+   
+   -webkit-padding-end: 20px;
+   
+   -webkit-padding-start: 2px;
+   
+   -webkit-user-select: none;
+   
+   background-image: url(https://image.ibb.co/ksu7Cd/71pp4m_1.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+   
+   background-position: 97% center;
+   
+   background-repeat: no-repeat;
+   
+   border-bottom: 1px solid #b1a18b;
+   
+   color: #555;
+   
+   font-size: inherit;
+   
+   overflow: hidden;
+   
+   padding: 5px 10px;
+   
+   text-overflow: ellipsis;
+   
+   white-space: nowrap;
+   
+   width: 300px;
+   
+   outline-color: #fff;
+   
+   outline: 0;
+
+}
+
+
+
+.search{
+    
+   margin-top: 15px;
+
+}
+
+.frame-right{
+    float:right;
+    width:55%;
+    height:100%;
+}
+
+#docpreview{
+    vertical-align:top;
+    width:100%;
+    height:100%;
+}
+
+#docframe{
+    width:100%;
+    height:80%;
+}
